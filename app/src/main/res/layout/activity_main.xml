@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="75dp"
+    tools:layout_editor_absoluteY="31dp">
+
+
+    <Button
+        android:id="@+id/btnBajar5"
+        android:layout_width="76dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="132dp"
+        android:background="@mipmap/ligth"
+        android:backgroundTint="@color/purple_500"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubir5"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnSubir5"
+        android:layout_width="86dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="88dp"
+        android:background="@mipmap/cajuela"
+        android:backgroundTint="@color/purple_500"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/macDevice"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/macDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Mac del dispositivo "
+        app:layout_constraintEnd_toStartOf="@+id/btnBuscarDispositivos"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameDevice"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/titleVoice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="pulsa el microfono para realizar una accion por voz...:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBajar5"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/titleVoice6"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="100dp"
+        android:text='"Encender / Apagat luz"'
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleVoice4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/titleVoice4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text='"Abrir puerta izquierda / derecha"'
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleVoice3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/titleVoice5"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="80dp"
+        android:text='"Abrir cajuela", "Abrir carro" '
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleVoice6"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/titleVoice3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Prueba diciendo lo siguiente:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleVoice2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/nameDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Nombre del dispositivo "
+        app:layout_constraintEnd_toStartOf="@+id/btnBuscarDispositivos"
+        app:layout_constraintHorizontal_bias="0.595"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnBuscarDispositivos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="64dp"
+        android:text="Conectar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnBajar2"
+        android:layout_width="59dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="60dp"
+        android:background="@mipmap/leftdoor"
+        android:backgroundTint="@color/purple_500"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubir5"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnSubir3"
+        android:layout_width="59dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="48dp"
+        android:background="@mipmap/rigthdoor"
+        android:backgroundTint="@color/purple_500"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/btnBajar2"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubir5"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imgVoice"
+        android:layout_width="54dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="60dp"
+        android:background="@android:drawable/btn_radio"
+        android:backgroundTint="@color/purple_500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/titleVoice3"
+        app:srcCompat="@android:drawable/ic_btn_speak_now"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
